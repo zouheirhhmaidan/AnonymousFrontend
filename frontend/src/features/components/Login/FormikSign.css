@@ -1,0 +1,56 @@
+
+
+.All {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    width: 25%;
+    margin: 0 auto 100px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 7%;
+    padding: 4%
+  }
+
+  .error {
+      color:red
+  }
+
+
+.email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid grey;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+ .email:focus {
+    border: 3px solid black;
+  }
+
+  .button {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    border: 2px solid #555555;
+    padding: 3%;
+    width: 100%;
+    margin-top: 10%;
+  }
+  
+  .button:hover {
+    background-color: #555555;
+    color: white;
+  }
